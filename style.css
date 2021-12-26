@@ -1,0 +1,40 @@
+header {
+  background-image: url(images/assets/delani2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  color: white;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#about-us {
+  text-align: center;
+}
+
+#services {
+  background-image: url(images/assets/delani3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#images {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+#images2 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+#portfolio {
+    text-align: center;
+    padding-top: 2rem;
+}

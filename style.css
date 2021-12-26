@@ -35,16 +35,27 @@ header {
 }
 
 #portfolio {
-    text-align: center;
-    padding-top: 2rem;
-    padding: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding: 5rem;
 }
 
 .form {
-    justify-content: space-between;
-    color: white;
-    padding: 3rem;
-    background-image: url(images/assets/delani1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  justify-content: space-between;
+  padding: 3rem;
+  background-image: url(images/assets/delani1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input[type="text"],
+textarea {
+  background-color: rgba(255, 255, 255, 0.192);
+  border: 1px solid white;
+  
+}
+
+
+footer {
+ text-align: center;
 }

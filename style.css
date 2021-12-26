@@ -39,3 +39,12 @@ header {
     padding-top: 2rem;
     padding: 5rem;
 }
+
+.form {
+    justify-content: space-between;
+    color: white;
+    padding: 3rem;
+    background-image: url(images/assets/delani1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

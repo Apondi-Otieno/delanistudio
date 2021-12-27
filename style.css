@@ -11,13 +11,18 @@ header {
 #what-we-do {
     display: flex;
     justify-content: space-evenly;
-    padding: 5rem;
+    
 }
 #about-us {
   text-align: center;
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
+
+#text {
+    text-align: center;
+    padding: 2rem;
+}
 #services {
   background-image: url(images/assets/delani3.jpg);
   background-size: cover;

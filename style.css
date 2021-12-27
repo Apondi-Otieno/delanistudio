@@ -2,7 +2,7 @@ header {
   background-image: url(images/assets/delani2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50rem;
+  height: 40rem;
   color: white;
   text-align: center;
   padding-top: 10rem;
@@ -10,6 +10,7 @@ header {
 
 #about-us {
   text-align: center;
+  padding: 2rem;
 }
 
 #services {
@@ -20,6 +21,7 @@ header {
   color: white;
   text-align: center;
   padding-top: 5rem;
+  padding: 2rem;
 }
 
 #images {
@@ -46,17 +48,18 @@ header {
   background-image: url(images/assets/delani1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 input[type="text"],
 textarea {
-  background-color: rgba(255, 255, 255, 0.192);
+  background-color: rgba(255, 255, 255, 0.658);
   border: 1px solid white;
-  
 }
 
 
 footer {
- text-align: center;
- padding:2rem;
+  text-align: center;
+  padding: 2rem;
 }
+

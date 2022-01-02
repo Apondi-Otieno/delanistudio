@@ -18,6 +18,20 @@ header {
   padding-top: 2rem;
 }
 
+.flip {
+  height: 199px;
+  width: 300px;
+  margin: 0 auto;
+}
+.flip img {
+  width: 300px;
+  height: auto;
+}
+.flip .back {
+  background: #2184cd;
+  color: #fff;
+  text-align: center;
+}
 
 #text {
     text-align: center;

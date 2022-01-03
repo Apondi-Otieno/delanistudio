@@ -2,5 +2,11 @@
 
 // add jquery hover property
 
+$(document).ready(function() {
+    $("img").hover(function() {
+        
+    })
+})
+
 
 

@@ -5,7 +5,7 @@
 
 // add toggle for what we do section
 
-$(function() {
+$(function () {
     toggleWhatWeDo('.management-icon', '.management-text');
     toggleWhatWeDo('.management-text', '.management-icon');
     toggleWhatWeDo('.development-icon', '.development-text');
@@ -15,3 +15,11 @@ $(function() {
 
 })
 
+function toggleWhatWeDo(class1, class2) 
+{
+    $(class1).click(function)
+    {
+        $(this).addClass('d-none');
+        $(class2).removeClass('d-none');
+    }
+}

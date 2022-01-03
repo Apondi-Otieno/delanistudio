@@ -91,12 +91,12 @@ $(document).ready(function () {
 
 // add form alert 
 $(document).ready(function () {
-    $("form#form34A").submit(function (event) {
+    $("form#contact").submit(function (event) {
         event.preventDefault();
-        var name = $("input#MERGE1").val();
-        var email = $("input#MERGE0").val();
+        var name = $("input#name").val();
+        var email = $("input#email").val();
         var message = $("textarea#message").val();
-        if ($("input#MERGE1").val() && $("input#MERGE0").val()) {
+        if ($("input#name").val() && $("input#email").val()) {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
         }
         else {

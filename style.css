@@ -93,12 +93,12 @@ header {
   padding-top: 5rem;
   padding: 2rem;
 }
-
+/* 
 #images {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 #images2 {
   flex-wrap: wrap;

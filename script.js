@@ -30,8 +30,8 @@ $(document).ready(function () {
     });
     $("#management.click(function () {
         $('#management').slideUp('1500');
-        $("#management-icon").slideDown('1500');
-    });
+    $("#management-icon").slideDown('1500');
+});
 });
 
 

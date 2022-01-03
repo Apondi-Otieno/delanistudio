@@ -1,5 +1,7 @@
 // add form alert and mailchimp
 
+let form = $('form');
+let name =$('name')
 // add jquery hover property
 
 

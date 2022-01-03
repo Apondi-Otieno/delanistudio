@@ -1,7 +1,20 @@
 // add form alert and mailchimp
 
 let form = $('form');
-let name =$('name')
+let name =$('#name');
+let email = $('#email');
+let message = $('#message');
+
+form.submit(function(event) {
+    event.preventDefault();
+    if(message.val().length ==0) {
+        alert('How can we help?')
+    }
+    else {
+        alert ('Hey $name.we have received your message')
+    }
+    form[0].reset();
+}
 // add jquery hover property
 
 

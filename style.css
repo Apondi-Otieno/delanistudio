@@ -16,6 +16,16 @@ header {
     display: flex;
     justify-content: space-evenly;
     
+    
+}
+
+.heading {
+  text-align:center;
+  padding: 2rem;
+}
+
+#what-we-{
+  padding:5rem;
 }
 #about-us {
   text-align: center;

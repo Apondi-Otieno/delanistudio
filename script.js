@@ -8,5 +8,9 @@ $(document).ready(function() {
     })
 })
 
+// add toggle for what we do section
 
+$(function() {
+    toggleWhatWeDo(".")
+})
 

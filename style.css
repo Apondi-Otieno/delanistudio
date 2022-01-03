@@ -10,6 +10,8 @@ header {
 #h4 {
   text-align: center;
 }
+
+
 #what-we-do {
     display: flex;
     justify-content: space-evenly;
